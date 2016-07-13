@@ -9,12 +9,12 @@ All server templates are available to be provisioned.
 
 Please take careful note to make sure that you amend the filename, username and password fields appropriately - otherwise the script will not execute.
 
+```
 $FileName = $PSScriptRoot + "\sample.xlsx",
 $username = "caas-username-goes-here",
 $password = "caas-password-goes-here",
 $adminPass = "virtual-machine-admin-password-goes-here"
-
-
+```
 
 # Dependencies
 
